@@ -1,5 +1,9 @@
 
-Набор базовых задач, их решение лучше организовывать в одном файле 
+# О задачах
+
+Набор базовых задач, их решение лучше организовывать в одном файле(ниже код он будет компилироваться только в стандарте с++23 и новее). 
+
+Если базовые задачи кажутся слишком простыми и не очень интересными то рекомендую ознакомиться с подборкой задач немного сложнее, она ниже после базовых.
 
 ```c++
 
@@ -7,6 +11,7 @@
 namespace problem {
   unsigned problem1() {
     // solution
+    return 0;
   }
   /*
   other function like a solution the problems
@@ -26,9 +31,9 @@ int main() {
             std::cout << problem1();
             break;
 
-        case 2:
-            std::cout << problem2();
-            break;
+        //case 2:
+        //    std::cout << problem2();
+        //    break;
         /*
         * other problems...
         */
@@ -43,6 +48,8 @@ int main() {
   
 
 ```
+
+## Базовые задачи
 
 ### Задача 1
 
@@ -190,5 +197,35 @@ CATA
 Пример вывода:
 
 3
+
+## Специальная подборка
+
+Несколько чуть более интересных задачек
+
+### LeetCode
+
+- https://leetcode.com/problems/find-peak-element/description/
+
+- https://leetcode.com/problems/generate-parentheses/description/
+
+- https://leetcode.com/problems/median-of-two-sorted-arrays/description/
+
+- https://leetcode.com/problems/longest-valid-parentheses/description/
+
+- https://leetcode.com/problems/numbers-with-repeated-digits/description/
+
+### CodeWars
+
+- https://www.codewars.com/kata/6a0f0f8d80f92c4028630a6b
+
+- https://www.codewars.com/kata/52f677797c461daaf7000740
+
+- https://www.codewars.com/kata/59eb1e4a0863c7ff7e000008
+
+- https://www.codewars.com/kata/5518a860a73e708c0a000027
+
+- https://www.codewars.com/kata/663112e7f82a3a18db62a790
+
+
 
 
