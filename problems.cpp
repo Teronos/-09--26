@@ -57,9 +57,9 @@ namespace classes{
             this -> laptop_name = brand + " - " + model;
         }
 
-        string get_laptop_name() const {return laptop_name;}
-        string get_brand() const { return brand; }
-        string get_model() const { return model; }
+        const string& get_laptop_name() const {return laptop_name;}
+        const string& get_brand() const { return brand; }
+        const string& get_model() const { return model; }
         double get_price() const { return price; }
     }; 
 
